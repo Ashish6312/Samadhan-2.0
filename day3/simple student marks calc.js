@@ -1,30 +1,23 @@
-// Student Marks Calculator
+// marksCalculator.js
+// Mini task: Calculate total marks for a student using .reduce()
 
-// Example marks (you can change or take input dynamically)
-let marks = [90, 85, 78, 88, 92];
+const student = {
+    name: "Ashish Sharma",
+    marks: [
+        { subject: "Maths", score: 92 },
+        { subject: "chemistry", score: 88 },
+        { subject: "JavaScript", score: 95 },
+        { subject: "AI", score: 90 }
+    ]
+};
 
-// Calculate total and percentage
-let total = marks.reduce((a, b) => a + b, 0);
-let percentage = total / marks.length;
+// Use reduce to sum the scores from the array of objects
+// The '0' is the initial value for our sum
+const totalScore = student.marks.reduce((sum, subject) => sum + subject.score, 0);
 
-// Find grade
-let grade;
-if (percentage >= 90) {
-  grade = "A+";
-} else if (percentage >= 80) {
-  grade = "A";
-} else if (percentage >= 70) {
-  grade = "B";
-} else if (percentage >= 60) {
-  grade = "C";
-} else if (percentage >= 50) {
-  grade = "D";
-} else {
-  grade = "F";
-}
+console.log("Student:", student.name);
+console.log("Total Marks:", totalScore);
 
-// Show result
-console.log("Marks:", marks);
-console.log("Total:", total);
+// Also calculating the percentage (assuming max marks are 100 for each subject)
+const percentage = (totalScore / (student.marks.length * 100)) * 100;
 console.log("Percentage:", percentage.toFixed(2) + "%");
-console.log("Grade:", grade);

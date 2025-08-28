@@ -1,14 +1,14 @@
-function findHighest(arr) {
-  let highest = arr[0]; 
+// highestMarks.js
+// Mini task: Find highest marks from an array
 
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > highest) {
-      highest = arr[i];
+let marks = [78, 92, 56, 88, 99, 67];
+
+let highest = marks[0]; // assume first element is highest
+for (let i = 1; i < marks.length; i++) {
+    if (marks[i] > highest) {
+        highest = marks[i];
     }
-  }
-
-  return highest;
 }
 
-let marks = [85, 92, 78, 96, 88];
-console.log("Highest Marks: " + findHighest(marks));
+console.log("Marks List:", marks);
+console.log("Highest Marks =", highest);
