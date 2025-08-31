@@ -58,7 +58,7 @@ We aim to build a **personalized AI-powered Study Buddy** that helps students pr
 
 ---
 
-## 👨‍👩‍👦 Team – Syntax Solvers  
+## 👨‍👩‍👦 Team – Code Storm⚡  
 - **Team Lead:** Ashish Sharma – Backend Developer, AI & DS Student @ SISTec  
 - **Team Member:** Anjali Kushwaha – Full Stack Developer  
 - **Team Member:** Preeti Khachne – Frontend & Design  
