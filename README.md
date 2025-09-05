@@ -1,77 +1,100 @@
-# 📚 Samadhan 2.0 Hackathon – Study Buddy Platform  
+# 📚 E-Learning and Content Recommendation System – Samadhan 2.0 Hackathon  
 
-🚀 Building the next generation of **AI-powered platforms** for competitive exam preparation.  
-Organized under **Samadhan 2.0**, this hackathon is a 48-hour sprint to innovate solutions **by students, for students**.  
-
----
-
-## 🎯 Hackathon Theme  
-The goal is to **build AI-powered platforms for competitive exam preparation**, focusing on **personalized learning, collaboration, and bilingual accessibility**.  
-
-Our team is working on a **Study Buddy Platform** designed around the exam:  
-👉 **GATE**  
+🚀 **E-Learning and Content Recommendation System** is a bilingual, AI-powered platform designed to revolutionize how students prepare for competitive exams.  
+Built by **Team Code Storm ⚡** during **Samadhan 2.0 Hackathon**, our platform tackles the biggest challenges in education like **language barriers, lack of personalization, and low engagement in remote learning**.  
 
 ---
 
-## 📦 Project Submission Requirements  
-Final submission will include:  
-1. ✅ Working prototype or automated workflow  
-2. 🎥 2–3 min demo video  
-3. 📄 Documentation (features, AI tools used, intended outcomes)  
+## 🎥 Demo Video  
+👉 [Watch Here](https://youtu.be/ALk0Oxr_8do)  
 
 ---
 
-## 🔎 Core Features (As per Rules)  
-- 🗣️ **Bilingual Text + Voice Support** (Hindi & English)  
-- 🎥 **Multimedia Inputs** (Text, Audio, Video, PDF)  
-- 🤝 **Group Collaboration Tools** (study rooms, chats, peer learning)  
-- 🔗 **MCP Integration** for cross-device/platform compatibility  
-- 📈 **Real-time Progress Tracking**  
+## 🏆 Problem Statement  
+- Current exam preparation methods are rigid and one-size-fits-all.  
+- Students face **language barriers** (Hindi vs English).  
+- Lack of **personalization** makes learning inefficient.  
+- Learners waste time searching for the right study resources.  
+- Remote classes lack **engagement, collaboration, and progress tracking**.  
 
 ---
 
-## 🤖 AI Tools & Services  
-We plan to use:  
-- **OpenAI GPT models** – for personalized question solving & study plans  
-- **Whisper / Speech-to-Text APIs** – for voice input support  
-- **Gemini / Hugging Face models** – for bilingual translation and learning insights  
-- **Custom ML Models** – for tracking progress and generating smart feedback  
+## 💡 Proposed Solution  
+- **E-Learning and Content Recommendation System**: A bilingual, AI-powered learning platform for competitive exams.  
+- Provides **instant doubt-solving** (voice + text, Hindi & English).  
+- Adaptive engine creates **personalized learning paths** based on progress.  
+- Enables **real-time collaborative study rooms** for peer learning.  
+- Offers **personalized dashboards** for students to track growth.  
 
 ---
 
-## 💡 Our Idea  
-We aim to build a **personalized AI-powered Study Buddy** that helps students prepare for exams by:  
-- Creating **adaptive study schedules**  
-- Providing **instant explanations & solutions**  
-- Supporting **Hindi + English voice/text interaction**  
-- Enabling **collaborative study groups** with AI moderators  
-- Tracking **real-time progress** to suggest improvements  
+## 🔎 Approach & Methodology  
+1. Collect student inputs → doubts, progress, quiz results, preferences.  
+2. Build learner profiles with **AI-powered analysis**.  
+3. Apply **recommendation engines** for adaptive study plans.  
+4. Provide **bilingual instant support** (text + speech).  
+5. Enable collaboration via **real-time study rooms**.  
+6. Continuous improvement with **feedback & progress tracking**.  
 
 ---
 
-## 🚀 Tech Stack  
-- **Frontend:** React.js / Next.js (with TailwindCSS)  
+## ✨ Key Features  
+- 🗣️ **Bilingual Support** – Hindi & English (voice + text).  
+- 🧠 **Instant AI-powered doubt solving**.  
+- 🤝 **Real-time collaborative study rooms**.  
+- 📈 **Personalized progress dashboards**.  
+- 🎙️ **Multimedia input** – text & audio queries.  
+- 🔔 **Smart reminders & notifications**.  
+
+---
+
+## 🎯 Target Users & Use Cases  
+- **Students** → learn at their own pace, get instant bilingual help.  
+- **Teachers** → reduce repetitive doubt-solving, track student progress.  
+- **Institutes** → boost engagement, inclusivity, and overall results.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend:** React.js (with TailwindCSS)  
 - **Backend:** Node.js + Express  
-- **Database:** MongoDB / Firebase  
-- **AI/ML:** OpenAI, Whisper, Gemini, Hugging Face  
-- **Deployment:** Vercel / Render / Cloud  
+- **Database:** MongoDB  
+- **Real-time:** Socket.io  
+- **AI Integration:** OpenAI, Google Gemini, Whisper  
+- **Deployment:** Vercel / Render / AWS / GCP  
 
 ---
 
-## 👨‍👩‍👦 Team – Code Storm⚡  
+## 🤖 AI Technologies & Implementation  
+- **Generative AI (OpenAI, Gemini):** bilingual doubt-solving.  
+- **Speech-to-Text (Whisper):** handle voice queries.  
+- **Recommendation system:** adaptive learning paths.  
+- **Analytics dashboards:** real-time progress tracking.  
+
+---
+
+## 🎯 Expected Outcomes  
+- **Students:** faster learning, bilingual clarity, better results.  
+- **Teachers:** more time for mentoring, less repetitive workload.  
+- **Institutes:** improved results, engagement, and inclusivity.  
+- **Society:** democratized access to personalized education.  
+
+---
+
+## 📢 Conclusion  
+**E-Learning and Content Recommendation System bridges the gap in personalized, bilingual, and collaborative learning.**  
+It empowers students, supports teachers, and benefits institutes — a **future-ready step towards AI-driven education**.  
+
+---
+
+## 👨‍👩‍👦 Team – Code Storm ⚡  
 - **Team Lead:** Ashish Sharma – Backend Developer, AI & DS Student @ SISTec  
 - **Team Member:** Anjali Kushwaha – Full Stack Developer  
 - **Team Member:** Preeti Khachne – Frontend & Design  
 
 ---
 
-## 📢 Note  
-This project is built as part of **Samadhan 2.0 Hackathon.**  
-We believe in innovating boldly and making education accessible, bilingual, and collaborative for all students.  
-
----
-
-## ▶️ How to Run  
+## ▶️ How to Run Locally  
 ```bash
 # clone repo
 git clone https://github.com/Ashish6312/Samadhan-2.0.git
